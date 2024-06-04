@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e1ef8014a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logog.png" class="logo" >
+                
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Recent Works</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <p>UI/UX DESIGNER</p>
+                <h1>Hello there! I'm <span>Amiel</span> <br>from the Philippines</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------about------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! My full name is Mark Amiel E. Enriquez, and I am a graduate student from 
+                    City College of Calamba (CCC). Studying a Four year course of Bachelor of science in 
+                    Computer Science. I am well knowledgable in many kind of programming language, such as
+                    python programming language, Java programming language, etc... 
+                    </p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tablinks"onclick="opentab('Experience')">Experience</p>
+                        <p class="tablinks"onclick="opentab('Education')">Education</p>
+                        <p class="tablinks"onclick="opentab('ContactInformation')">Contact Information</p>
+                    </div>
+                    <div class="tabcontents activetab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX Designer</span><br>Desinging Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Experience">
+                        <ul>
+                            <li><span>2024 - current</span><br>Desinging Web/App interfaces training at 
+                                Harvard University</li>
+                            <li><span>2020 - 2023</span><br>Team Lead at Google Microsoft</li>
+                            <li><span>2018 - 2019</span><br>Graphics designer at Digital Marketing Philippines</li>
+                            <li><span>2016 - 2017</span><br>Trainee at Google</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>Desinging Web/App interfaces training at 
+                                Harvard University</li>
+                            <li><span>2020</span><br>University of Cambrige</li>
+                            <li><span>2016</span><br>City College of Calamba</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="ContactInformation">
+                        <ul>
+                            <li><span>Phone Number: </span><br>09999079284</li>
+                            <li><span>Facebook Profile Link: </span><br><a class="fblink" target="_blank" href="//www.facebook.com/amiel.enriquez.125">Mark Amiel Enriquez</a></li>
+                            <li><span>Instagram Profile Link: </span><br><a class="instalink" target="_blank" href="//www.instagram.com/a_m_i__e_l/">a_m_i__e_l</a></li>
+                            <li><a class="bts" href="images/resume.pdf" download>Resume</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>The process of planning, conceptualizing, and implementing the plan for designing a 
+                    website in a way that is functional and offers a good user experience. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI Designing</h2>
+                <p>Process designers use to build interfaces in software or computerized devices, focusing 
+                    on looks or style. Designers aim to create interfaces which users find easy to use and 
+                    pleasurable.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Designing</h2>
+                <p>An ongoing process of creating user experience (UX) and user interface (UI) elements 
+                    for your application. The first step in the mobile app design process is to determine 
+                    the goal of the application and how it aligns with the needs of your target audience</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------achievements------------------->
+<div id="portfolio">
+
+    <div class="container">
+        <h1 class="subtitle">My Recent Work</h1>
+        <div class="achievelist">
+            <div class="achieve">
+                <img src="images/eco_2.png">
+                <div class="layer">
+                    <h3>JapAnime Online Shop</h3>
+                    <p>An online shop specializing in figurines offers enthusiasts a captivating and convenient
+                         platform to explore and acquire a diverse array of meticulously crafted collectibles. 
+                         Providing a seamless shopping experience, it caters to the passions of collectors and 
+                         fans alike, allowing them to discover, purchase, and showcase intricately designed 
+                         figurines that bring their favorite characters, scenes, or interests to life in the 
+                         comfort of their homes.</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="achieve">
+                <img src="images/ogs_1.png">
+                <div class="layer">
+                    <h3>Online Grading System</h3>
+                    <p>An online grading system solely dedicated to generating grades provides a streamlined 
+                        and efficient approach to the assessment process. By focusing on the creation of 
+                        grades, it enhances accuracy, reduces manual errors, and expedites the grading workflow,
+                         ultimately facilitating educators in delivering timely and precise academic evaluations.
+                        </p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Amiel. Made by Myself<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+   </script>
+</body>
+</html>
